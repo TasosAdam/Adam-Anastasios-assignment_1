@@ -1,0 +1,68 @@
+.login{
+  padding: 5px;
+  width: min-content;
+  font-weight: bold;
+  
+}
+
+.header{
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(214, 121, 14);
+ height: 13vh;
+
+}
+
+.menu-container{ 
+  padding: 10px;
+}
+
+.menu-item{
+  background-color: rgb(128, 131, 131);
+  border-style: outset;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+h1{
+  font-size: 50px;
+  margin-top: 0;
+}
+
+img {
+  width: 100%
+}
+
+.main-page{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+}
+
+.button{
+  margin-top: 5px;
+  padding: 5px;
+}
+
+
+
+.formValues{
+  width: fit-content;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.container{
+  background-color: rgb(66, 132, 255);
+  height: 87vh;
+
+  
+}

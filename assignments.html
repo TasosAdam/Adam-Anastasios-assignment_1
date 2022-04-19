@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Camp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="menu-container">
+      <h1>Code Camp</h1>
+      <!-------------------menu---------------------->
+      <div class="menu">
+        <a class="menu-item" href="index.html"> Home</a>
+        <a class="menu-item" href="trainers.html"> Trainer</a>
+        <a class="menu-item" href="students.html"> Student</a>
+        <a class="menu-item" href="courses.html"> Course</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <form id="formValues" class="formValues">
+
+      <h1> Assignments</h1><br>
+
+      <label for="lesson">Lesson:</label><br>
+
+      <select class="input" name="lesson" id="lesson">
+        <option value="">Please choose a lesson</option>
+        <option value="Java">Java</option>
+        <option value="Csharp">Csharp</option>
+        <option value="Javascript">Javascript</option>
+      </select><br>
+
+      <label>Assignment</label><br>
+      <select class="input" name="Assignment" id="Assignment">
+        <option value="">Please choose an Assignment</option>
+        <option value="Progress Assignment">Progress Assignment</option>
+        <option value="Final Assignment">Final Assignment</option>
+      </select><br>
+
+      <label for="progessMark">Progess mark:</label><br>
+      <input class="input" type="number" name="progessMark" id="progessMark"><br>
+
+      <label for="finalMark">Final mark:</label><br>
+      <input class="input" type="number" name="finalMark" id="finalMark"><br>
+
+      <button class="button">Add</button>
+      <button class="button">Edit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

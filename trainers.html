@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Camp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="menu-container">
+      <h1>Code Camp</h1>
+      <!------------------menu---------------------->
+      <div class="menu">
+        <a class="menu-item" href="index.html"> Home</a>
+        <a class="menu-item" href="students.html"> Student</a>
+        <a class="menu-item" href="courses.html"> Course</a>
+        <a class="menu-item" href="assignments.html"> Assignment</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <form id="formValues" class="formValues">
+      <h1> Trainers</h1><br>
+      <label for="firstNameTrainers">First name:</label><br>
+      <input class="input" type="text" name="firstName" id="firstName"><br>
+
+      <label for="lastNameTrainers">Last name:</label><br>
+      <input class="input" type="text" name="lastName" id="lastName"><br>
+
+      <label for="emailTrainers">Email:</label><br>
+      <input class="input" type="email" name="email" id="email"><br>
+
+      <label for="specialization">Specialization:</label><br>
+
+      <select class="input" name="specialization" id="specialization">
+        <option value="">Please choose a specialization</option>
+        <option value="Java">Java</option>
+        <option value="Csharp">Csharp</option>
+        <option value="Javascript">Javascript</option>
+      </select><br>
+
+      <label>Assignment</label><br>
+      <select class="input" name="Assignment" id="Assignment">
+        <option value="">Please choose an Assignment</option>
+        <option value="Progress Assignment">Progress Assignment</option>
+        <option value="Final Assignment">Final Assignment</option>
+      </select><br>
+
+      <button class="button">Add</button>
+      <button class="button">Edit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
